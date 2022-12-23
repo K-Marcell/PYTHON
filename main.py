@@ -183,19 +183,4 @@ PID = {
 }
 
 ser = serial.Serial('COM5', 38400, timeout=1)
-ser.write(b"01 0D \r")
-speed_hex = str(ser.readline())
-speed = float(int('0x'+speed_hex[3], 0))
-print("Speed: ", speed, "km/h")
-ser.write(b"01 0C \r")
-rpm_hex = str(ser.readline())
-rpm = float(int('0x'+rpm_hex[3], 0))
-print(speed, "RPM")
-ser.write(b"01 11 \r")
-tpos_hex = str(ser.readline())
-tpos = float(int('0x'+tpos_hex[3], 0))
-print(speed, "RPM")
-ser.write(b"01 51 \r")
-ftype_hex = str(ser.readline())
-ftype = float(int('0x'+ftype_hex[3], 0))
-print(ftype)
+
