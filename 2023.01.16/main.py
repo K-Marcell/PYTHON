@@ -66,7 +66,7 @@ def add_grade():
 
     subjects[0][subject_choice].append([grade, weight])
 
-    return subjects[0][subject_choice]
+    return "jegy sikeresen hozzáadva."
 
 
 def remove_grade():
