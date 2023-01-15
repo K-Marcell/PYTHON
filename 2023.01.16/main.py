@@ -33,6 +33,9 @@ def remove_subject():
 
     subject_choice = filterSubject(subject_choice)
 
+    if subject_choice not in subjects[0].keys():
+        return remove_subject()
+
     isUserSure = input("Biztos benne? Igen/Nem\n")
     isUserSure = filterSubject(isUserSure)
     if isUserSure == 'Igen':
@@ -50,7 +53,7 @@ def add_grade():
     subject_choice = input(f"Tantárgy:{ossz_tantargy}")
     subject_choice = filterSubject(subject_choice)
 
-    if (subject_choice not in subjects[0].keys()):
+    if subject_choice not in subjects[0].keys():
         return add_grade()
 
     grade = int(input("Jegy: "))
