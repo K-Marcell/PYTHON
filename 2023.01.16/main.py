@@ -1,5 +1,6 @@
 import os
 import csv
+import time
 
 subjects = [{}]
 subject_info = []
@@ -8,11 +9,11 @@ total_avg = 0
 
 
 def filterSubject(subject_name):
-    return f"{subject_name.lower()[0].upper()}{subject_name[1:].lower()}"
+    return f"{subject_name[0].upper()}{subject_name[1:].lower()}"
 
 
 def add_subject():
-    subject_name = input("Tantárgy neve: ")
+    subject_name = input("Tantárgy neve(Mégsem: ENTER): ")
     if len(subject_name) == 0:
         return add_subject()
     else:
@@ -97,12 +98,12 @@ def remove_grade():
 def saveExit():
     for subject in subjects[0]:
         for gradeInfo in subjects[0][subject]:
-            subjects[0][subject][subjects[0]
-                                 [subject].index(gradeInfo)] = gradeInfo[0]
+            subjects[0][subject][subjects[0][subject].index(gradeInfo)] = gradeInfo[0]
     with open("mentettjegyek.csv", 'w') as file:
         writer = csv.DictWriter(file, fieldnames=subject_info)
         writer.writeheader()
         writer.writerows(subjects)
+        time.sleep(1)
     return "sikeresen mentett."
 
 
