@@ -1,0 +1,240 @@
+1
+Irodalom
+1
+Magyar nyelv
+1
+matematika
+1
+történelem
+1
+fizika
+1
+angol nyelv
+1
+testnevelés
+1
+adatbázis-kezelés I.
+1
+asztali alkalmazások fejlesztése
+1
+ikt projektmunka ii.
+1
+szakmai angol
+1
+webprogramozás
+2
+Irodalom
+1
+100
+2
+Irodalom
+4
+100
+2
+Irodalom
+4
+100
+2
+Irodalom
+1
+100
+2
+Magyar nyelv
+4
+100
+2
+Magyar nyelv
+3
+100
+2
+Matematika
+3
+100
+2
+Matematika
+1
+100
+2
+Matematika
+1
+200
+2
+Matematika
+2
+100
+2
+Matematika
+3
+100
+2
+Történelem
+2
+100
+2
+Történelem
+3
+100
+2
+Történelem
+3
+100
+2
+Történelem
+5
+100
+2
+Fizika
+3
+100
+2
+Fizika
+2
+100
+2
+Fizika
+2
+100
+2
+Fizika
+1
+100
+2
+Angol Nyelv
+5
+100
+2
+Angol Nyelv
+5
+200
+2
+Angol Nyelv
+5
+100
+2
+Angol Nyelv
+5
+100
+2
+Angol Nyelv
+5
+100
+2
+Testnevelés
+4
+100
+2
+Testnevelés
+4
+100
+2
+Testnevelés
+5
+100
+2
+Testnevelés
+5
+100
+2
+Testnevelés
+5
+100
+2
+Testnevelés
+5
+100
+2
+adatbázis-kezelés I.
+5
+100
+2
+adatbázis-kezelés I.
+5
+100
+2
+adatbázis-kezelés I.
+3
+100
+2
+asztali alkalmazások fejlesztése
+5
+100
+2
+asztali alkalmazások fejlesztése
+5
+100
+2
+asztali alkalmazások fejlesztése
+5
+100
+2
+asztali alkalmazások fejlesztése
+5
+100
+2
+asztali alkalmazások fejlesztése
+4
+100
+2
+ikt projektmunka ii.
+3
+100
+2
+ikt projektmunka ii.
+1
+100
+2
+ikt projektmunka ii.
+1
+100
+2
+ikt projektmunka ii.
+5
+100
+2
+ikt projektmunka ii.
+5
+100
+2
+ikt projektmunka ii.
+5
+100
+2
+ikt projektmunka ii.
+5
+100
+2
+szakmai angol
+5
+100
+2
+szakmai angol
+5
+100
+2
+szakmai angol
+5
+100
+2
+webprogramozás
+5
+100
+2
+webprogramozás
+5
+100
+2
+webprogramozás
+5
+100
+2
+webprogramozás
+5
+100
+2
+webprogramozás
+5
+100
+2
+webprogramozás
+5
+100
