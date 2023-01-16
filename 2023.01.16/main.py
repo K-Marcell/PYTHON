@@ -103,8 +103,8 @@ def saveExit():
         writer = csv.DictWriter(file, fieldnames=subject_info)
         writer.writeheader()
         writer.writerows(subjects)
-        time.sleep(1)
-    return "sikeresen mentett."
+        time.sleep(0.5)
+    return "sikeresen mentett. Kilépés."
 
 
 while True:
@@ -130,20 +130,26 @@ while True:
                 print(f"{k} - {grades_output} | átlag: {gradeTotal}")
             else:
                 print(f"{k} - Semmi")
-        operation = int(input("Válasszon egy műveletet:1)Tantárgy hozzáadása\n\t\t\t2)Jegy hozzáadása\n\t\t\t3)Tantárgy eltávolítása\n\t\t\t4)Jegy eltávolítása\n\t\t\t5)Mentés és Kilépés\n\t\t\t6)Mentés nélküli kilépés\n"))
+        try:
+            operation = int(input("Válasszon egy műveletet:1)Tantárgy hozzáadása\n\t\t\t2)Jegy hozzáadása\n\t\t\t3)Tantárgy eltávolítása\n\t\t\t4)Jegy eltávolítása\n\t\t\t5)Mentés és Kilépés\n\t\t\t6)Mentés nélküli kilépés\n"))
 
-        if operation == 1:
-            print(add_subject())
-        elif operation == 2:
-            print(add_grade())
-        elif operation == 3:
-            print(remove_subject())
-        elif operation == 4:
-            print(remove_grade())
-        elif operation == 5:
-            print(saveExit())
-            break
-        elif operation == 6:
-            break
+            if operation == 1:
+                print(add_subject())
+            elif operation == 2:
+                print(add_grade())
+            elif operation == 3:
+                print(remove_subject())
+            elif operation == 4:
+                print(remove_grade())
+            elif operation == 5:
+                print(saveExit())
+                time.sleep(2)
+                break
+            elif operation == 6:
+                print("Kilépés.")
+                time.sleep(2)
+                break
+        except:
+            pass
 
     os.system('cls')
